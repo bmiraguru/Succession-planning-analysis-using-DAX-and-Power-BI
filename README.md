@@ -23,5 +23,7 @@ Bridging this gap will be key to fostering a more inclusive and high-performing 
 
 **Monitor and Adjust Engagement Strategies: **Address the engagement dip in 2023 by refining current initiatives and ensuring ongoing improvement.
 
+Additionallly, the training programs would need a closer look since the avg performance rating of trained employees are lesser than that of the non - trained ones.
+
 These actions can strengthen succession planning and improve long-term performance across the board.
 
