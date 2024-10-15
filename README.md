@@ -25,5 +25,106 @@ Bridging this gap will be key to fostering a more inclusive and high-performing 
 
 Additionallly, the training programs would need a closer look since the avg performance rating of trained employees are lesser than that of the non - trained ones.
 
+DAX measures used:
+% DE&I = 
+    ROUND(
+        DIVIDE(
+            // Calculate high potential count
+            CALCULATE(
+                COUNTROWS('SP data'),
+                'SP data'[Diversity_Status] = "Yes"
+            ),
+            // Calculate total count without filters
+            CALCULATE(
+                COUNTROWS('SP data'), 
+                REMOVEFILTERS('SP data')
+            ),
+            0
+        ) * 100,
+        2 
+    )
+
+
+    2.% DE&I = 
+    ROUND(
+        DIVIDE(
+            // Calculate high potential count
+            CALCULATE(
+                COUNTROWS('SP data'),
+                'SP data'[Diversity_Status] = "Yes"
+            ),
+            // Calculate total count without filters
+            CALCULATE(
+                COUNTROWS('SP data'), 
+                REMOVEFILTERS('SP data')
+            ),
+            0
+        ) * 100,
+        2 
+    )
+
+    3.% of diverse HIPOs fixed = 
+    ROUND(
+        DIVIDE(
+            // Calculate high potential count
+            CALCULATE(
+                COUNTROWS('SP data'),
+                'SP data'[High_Potential_Flag] = "Yes",
+                'SP data'[Diversity_Status] = "Yes" 
+            ),
+
+            CALCULATE(
+                COUNTROWS('SP data'), 
+                REMOVEFILTERS('SP data')
+            ),
+            0
+        ) * 100,
+        2  // Change this to the number of decimal places you want
+    )
+    
+    
+    4.% of diverse Leaders fixed = 
+    ROUND(
+        DIVIDE(
+            // Calculate high potential count
+            CALCULATE(
+                COUNTROWS('SP data'),
+                'SP data'[High_Potential_Flag] = "Yes",
+                'SP data'[Leadership_Ready_Flag] = "Yes" 
+            ),
+
+            CALCULATE(
+                COUNTROWS('SP data'), 
+                REMOVEFILTERS('SP data')
+            ),
+            0
+        ) * 100,
+        2  // Change this to the number of decimal places you want
+    )
+
+
+5.% of Hipos = 
+    ROUND(
+        DIVIDE(
+            // Calculate high potential count
+            CALCULATE(
+                COUNTROWS('SP data'),
+                'SP data'[High_Potential_Flag] = "Yes"
+            ),
+            // Calculate total count without filters
+            CALCULATE(
+                COUNTROWS('SP data'), 
+                REMOVEFILTERS('SP data')
+            ),
+            0
+        ) * 100,
+        2  // Change this to the number of decimal places you want
+    )
+
+
+
+
+
+
 These actions can strengthen succession planning and improve long-term performance across the board.
 
