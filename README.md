@@ -13,3 +13,15 @@ The senior age group (55-64) reported the highest levels of both job satisfactio
 Overall, while we’ve made strides in identifying diverse HiPos and improving engagement over time, there’s still a gap in ensuring all employees, particularly those from diverse groups, feel both engaged and satisfied. 
 Bridging this gap will be key to fostering a more inclusive and high-performing leadership pipeline.
 
+**Recommendations:**
+
+**Support Diverse Talent:** Improve engagement and job satisfaction for diverse HiPos through mentorship, development programs, and recognition initiatives.
+
+**Balance Engagement and Performance:** Focus on programs that maintain high performance while boosting employee engagement across all groups.
+
+**Sustain Senior Leadership Engagement: **Leverage the high satisfaction and performance of senior employees (55-64) by involving them in mentoring or leadership roles.
+
+**Monitor and Adjust Engagement Strategies: **Address the engagement dip in 2023 by refining current initiatives and ensuring ongoing improvement.
+
+These actions can strengthen succession planning and improve long-term performance across the board.
+
